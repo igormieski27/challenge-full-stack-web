@@ -8,27 +8,7 @@ Sistema desenvolvido em Vue.js e Node.js, com o objetivo de facilitar o cadastro
 
 Para o desenvolvimento deste projeto, optei por uma arquitetura MVC (Model-View-Controller), para facilitar a legibilidade e o entendimento da estrutura do projeto. Além disso, essa melhor organização acaba facilitando a manutenção e o desenvolvimento de novas funcionalidades (escalabilidade) no projeto.
 Os arquivos ficaram distribuídos da seguinte forma:
-.
-|-- frontend/
-| `-- src/
-|       |-- services/
-|       |   |-- Serviços para conexão com o backend
-|       |   `-- Regras de validação de campos
-| `-- views/
-|           `-- Telas do sistema
-`-- backend/
-    |-- controllers/
-    |   `-- Métodos que conectam os endpoints à camada model
-|-- middlewares/
-| `-- Serviços relacionados à autenticação e qualquer intermediação de métodos
-    |-- models/
-    |   |-- Camada de acesso e configuração de conexão à base de dados
-    |   `-- migrations/
-| `-- Migrations para criação de tabelas na base de dados
-    `-- routes/
-`-- Rotas dos endpoints, que chamam os controladores
-    `-- tests/
-`-- Testes unitários
+![tree](https://github.com/igormieski27/challenge-full-stack-web/assets/108681204/068061a4-872b-4166-9e91-182c865c7be1)
 
 ## Lista de Tecnologias e Bibliotecas
 
@@ -68,7 +48,8 @@ Os arquivos ficaram distribuídos da seguinte forma:
 - Opção para fazer logoff do sistema
 - Verificações de segurança para que não seja possível utilizar as funcionalidades a não ser que o usuário esteja autenticado
 
-### Flowchart
+### Flowchart das telas
+![flowchart](https://github.com/igormieski27/challenge-full-stack-web/assets/108681204/871dcc15-cbc9-4355-bb52-56f0e28ced1d)
 
 ### O que eu melhoraria se tivesse mais tempo:
 
@@ -159,3 +140,11 @@ User Authentication
 ✔ deve retornar código 409 para cadastro com email existente (70ms)
 ✔ deve retornar código 201 para cadastro com dados válidos (64ms)
 ✔ deve retornar 200 para login válido (63ms)
+
+
+## observações finais
+### Github (commits)
+ - Como o projeto foi desenvolvido separadamente em dois repositórios (front e back), talvez os commits não apareçam no fork. Por isso, para verificação e avaliação do histórico de commits, acesse os repositórios através dos links: 
+
+ - Frontend: https://github.com/igormieski27/challenge-frontend
+ - Backend: https://github.com/igormieski27/challenge-backend
