@@ -98,6 +98,8 @@ Os arquivos ficaram distribuídos da seguinte forma:
 ```
 
 - Crie o banco de dados no postrgresql baseado nos dados do arquivo **models/knexfile.js**
+*Em caso de erro ao executar a migration, verifique os dados de conexão. Caso algum dado de conexão for alterado, deve ser
+também alterado nos models studentModel e userModel, que conectam-se também à base de dados.*
 
 ```bash
       host: "localhost"
