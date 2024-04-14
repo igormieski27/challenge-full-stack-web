@@ -97,7 +97,7 @@ Os arquivos ficaram distribuídos da seguinte forma:
   npm i
 ```
 
-- Crie o banco de dados no postrgresql baseado nos dados do arquivo **model/knexfile.js**
+- Crie o banco de dados no postrgresql baseado nos dados do arquivo **models/knexfile.js**
 
 ```bash
       host: "localhost"
@@ -109,7 +109,7 @@ Os arquivos ficaram distribuídos da seguinte forma:
 - Execute as migrations usando o knex
 
 ```bash
-  cd model
+  cd models
   npx knex migrate:latest
 ```
 
