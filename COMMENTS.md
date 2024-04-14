@@ -136,10 +136,10 @@ Os arquivos ficaram distribuídos da seguinte forma:
 - Retorno esperado:
 
 User Authentication
-✔ deve retornar 401 para login inválido (79ms)
-✔ deve retornar código 409 para cadastro com email existente (70ms)
-✔ deve retornar código 201 para cadastro com dados válidos (64ms)
-✔ deve retornar 200 para login válido (63ms)
+ - ✔ deve retornar 401 para login inválido (79ms)
+ - ✔ deve retornar código 409 para cadastro com email existente (70ms)
+ - ✔ deve retornar código 201 para cadastro com dados válidos (64ms)
+ - ✔ deve retornar 200 para login válido (63ms)
 
 
 ## observações finais
