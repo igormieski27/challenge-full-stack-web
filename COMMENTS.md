@@ -20,7 +20,7 @@ Os arquivos ficaram distribuídos da seguinte forma:
 - material-design-icons-iconfont: Biblioteca externa de ícones
 - vue-router: Gerenciar as trocas de rota (página)
 
-### Lado do Servidor (Node.js)
+### Back-end (Node.js)
 
 - Express: Servir os endpoints para acesso via HTTP
 - bcrypt: Codificar/Decodificar as senhas
