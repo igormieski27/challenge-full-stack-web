@@ -2,7 +2,7 @@
   <v-container>
     <v-row justify="center">
       <v-col cols="12" sm="8" md="6">
-        <v-card style="top: 15%" class="pa-12">
+        <v-card class="pa-12">
           <v-img
             :width="300"
             aspect-ratio="16/9"

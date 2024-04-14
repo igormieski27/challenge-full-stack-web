@@ -117,6 +117,8 @@ Os arquivos ficaram distribuídos da seguinte forma:
 ```
 
 - Crie o banco de dados no postrgresql baseado nos dados do arquivo **model/knexfile.js**
+  ** Em alguns casos, o banco de dados pode ser inicializado com a senha root como padrão, que vai causar erros nas requisições.
+  Caso isso aconteça, ajuste a senha no arquivo knex (knexfile.js);**
 
 ```bash
       host: "localhost"
