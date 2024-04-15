@@ -119,7 +119,7 @@ Os arquivos ficaram distribuídos da seguinte forma:
 - Execute o servidor (Endereço: http://localhost:3000/)
 
 ```bash
-  npm run serve
+  node server.js
 ```
 
 ### Testes (Node.js)
